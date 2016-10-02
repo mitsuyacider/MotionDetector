@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3907A0A81AFB701500F7425E /* PresetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3907A0A71AFB701500F7425E /* PresetView.xib */; };
+		3907A0AB1AFB703800F7425E /* PresetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3907A0AA1AFB703800F7425E /* PresetView.m */; };
+		3907A0BD1AFC574100F7425E /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3907A0BC1AFC574100F7425E /* ViewController.mm */; };
+		3907A0C11AFC5D6E00F7425E /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 3907A0C01AFC5D6E00F7425E /* Assets */; };
+		3907A0C31AFC5EBB00F7425E /* default.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3907A0C21AFC5EBB00F7425E /* default.mp3 */; };
+		392B0CD71AFC8807005E3BA5 /* CommonFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 392B0CD61AFC8807005E3BA5 /* CommonFunction.m */; };
+		392B24941AF0E8D800D88A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 392B24931AF0E8D800D88A25 /* main.m */; };
+		392B24971AF0E8D800D88A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 392B24961AF0E8D800D88A25 /* AppDelegate.m */; };
+		392B249D1AF0E8D800D88A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392B249B1AF0E8D800D88A25 /* Main.storyboard */; };
+		392B249F1AF0E8D800D88A25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392B249E1AF0E8D800D88A25 /* Images.xcassets */; };
+		392B24A21AF0E8D800D88A25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392B24A01AF0E8D800D88A25 /* LaunchScreen.xib */; };
+		392B24AE1AF0E8D900D88A25 /* MotionDetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 392B24AD1AF0E8D900D88A25 /* MotionDetectorTests.m */; };
+		392B24B91AF0E94D00D88A25 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392B24B81AF0E94D00D88A25 /* opencv2.framework */; };
+		3949D40E1B044B75008AE045 /* SleepView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3949D40D1B044B74008AE045 /* SleepView.xib */; };
+		3949D4111B044B9A008AE045 /* SleepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3949D4101B044B9A008AE045 /* SleepView.m */; };
+		39AB4EB41AFB46E200EECB7F /* ImageProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39AB4EB31AFB46E200EECB7F /* ImageProcessor.mm */; };
+		39F363831AF0EC4400B4C1B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F363821AF0EC4400B4C1B0 /* AVFoundation.framework */; };
+		39F363851AF0EF7F00B4C1B0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F363841AF0EF7F00B4C1B0 /* CoreMedia.framework */; };
+		39F363871AF0F05800B4C1B0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F363861AF0F05800B4C1B0 /* CoreVideo.framework */; };
+		39F363891AF0F06000B4C1B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F363881AF0F06000B4C1B0 /* QuartzCore.framework */; };
+		39F3638B1AF0F06C00B4C1B0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F3638A1AF0F06C00B4C1B0 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		392B24A81AF0E8D900D88A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392B24861AF0E8D800D88A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 392B248D1AF0E8D800D88A25;
+			remoteInfo = MotionDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3907A0A71AFB701500F7425E /* PresetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresetView.xib; sourceTree = "<group>"; };
+		3907A0A91AFB703800F7425E /* PresetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresetView.h; sourceTree = "<group>"; };
+		3907A0AA1AFB703800F7425E /* PresetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresetView.m; sourceTree = "<group>"; };
+		3907A0BB1AFC574100F7425E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3907A0BC1AFC574100F7425E /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		3907A0C01AFC5D6E00F7425E /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		3907A0C21AFC5EBB00F7425E /* default.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = default.mp3; sourceTree = "<group>"; };
+		392B0CD51AFC8807005E3BA5 /* CommonFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunction.h; sourceTree = "<group>"; };
+		392B0CD61AFC8807005E3BA5 /* CommonFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFunction.m; sourceTree = "<group>"; };
+		392B248E1AF0E8D800D88A25 /* MotionDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		392B24921AF0E8D800D88A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392B24931AF0E8D800D88A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		392B24951AF0E8D800D88A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		392B24961AF0E8D800D88A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		392B249C1AF0E8D800D88A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		392B249E1AF0E8D800D88A25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		392B24A11AF0E8D800D88A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		392B24A71AF0E8D900D88A25 /* MotionDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392B24AC1AF0E8D900D88A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392B24AD1AF0E8D900D88A25 /* MotionDetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionDetectorTests.m; sourceTree = "<group>"; };
+		392B24B81AF0E94D00D88A25 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		3949D40D1B044B74008AE045 /* SleepView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SleepView.xib; sourceTree = "<group>"; };
+		3949D40F1B044B9A008AE045 /* SleepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepView.h; sourceTree = "<group>"; };
+		3949D4101B044B9A008AE045 /* SleepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepView.m; sourceTree = "<group>"; };
+		39AB4EB21AFB46E200EECB7F /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessor.h; sourceTree = "<group>"; };
+		39AB4EB31AFB46E200EECB7F /* ImageProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageProcessor.mm; sourceTree = "<group>"; };
+		39F363821AF0EC4400B4C1B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		39F363841AF0EF7F00B4C1B0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		39F363861AF0F05800B4C1B0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		39F363881AF0F06000B4C1B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		39F3638A1AF0F06C00B4C1B0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		392B248B1AF0E8D800D88A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F3638B1AF0F06C00B4C1B0 /* MobileCoreServices.framework in Frameworks */,
+				39F363891AF0F06000B4C1B0 /* QuartzCore.framework in Frameworks */,
+				39F363871AF0F05800B4C1B0 /* CoreVideo.framework in Frameworks */,
+				39F363851AF0EF7F00B4C1B0 /* CoreMedia.framework in Frameworks */,
+				39F363831AF0EC4400B4C1B0 /* AVFoundation.framework in Frameworks */,
+				392B24B91AF0E94D00D88A25 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392B24A41AF0E8D900D88A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3907A0A61AFB6FBA00F7425E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3949D40D1B044B74008AE045 /* SleepView.xib */,
+				3949D40F1B044B9A008AE045 /* SleepView.h */,
+				3949D4101B044B9A008AE045 /* SleepView.m */,
+				3907A0A71AFB701500F7425E /* PresetView.xib */,
+				3907A0A91AFB703800F7425E /* PresetView.h */,
+				3907A0AA1AFB703800F7425E /* PresetView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		392B24851AF0E8D800D88A25 = {
+			isa = PBXGroup;
+			children = (
+				39F3638A1AF0F06C00B4C1B0 /* MobileCoreServices.framework */,
+				39F363881AF0F06000B4C1B0 /* QuartzCore.framework */,
+				39F363861AF0F05800B4C1B0 /* CoreVideo.framework */,
+				39F363841AF0EF7F00B4C1B0 /* CoreMedia.framework */,
+				39F363821AF0EC4400B4C1B0 /* AVFoundation.framework */,
+				392B24901AF0E8D800D88A25 /* MotionDetector */,
+				392B24AA1AF0E8D900D88A25 /* MotionDetectorTests */,
+				392B248F1AF0E8D800D88A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		392B248F1AF0E8D800D88A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				392B248E1AF0E8D800D88A25 /* MotionDetector.app */,
+				392B24A71AF0E8D900D88A25 /* MotionDetectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		392B24901AF0E8D800D88A25 /* MotionDetector */ = {
+			isa = PBXGroup;
+			children = (
+				3907A0C21AFC5EBB00F7425E /* default.mp3 */,
+				3907A0C01AFC5D6E00F7425E /* Assets */,
+				39AB4EAF1AFB46CE00EECB7F /* Classes */,
+				392B24B71AF0E94D00D88A25 /* Frameworks */,
+				392B24951AF0E8D800D88A25 /* AppDelegate.h */,
+				392B24961AF0E8D800D88A25 /* AppDelegate.m */,
+				392B249B1AF0E8D800D88A25 /* Main.storyboard */,
+				392B249E1AF0E8D800D88A25 /* Images.xcassets */,
+				392B24A01AF0E8D800D88A25 /* LaunchScreen.xib */,
+				392B24911AF0E8D800D88A25 /* Supporting Files */,
+			);
+			path = MotionDetector;
+			sourceTree = "<group>";
+		};
+		392B24911AF0E8D800D88A25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				392B24921AF0E8D800D88A25 /* Info.plist */,
+				392B24931AF0E8D800D88A25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		392B24AA1AF0E8D900D88A25 /* MotionDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				392B24AD1AF0E8D900D88A25 /* MotionDetectorTests.m */,
+				392B24AB1AF0E8D900D88A25 /* Supporting Files */,
+			);
+			path = MotionDetectorTests;
+			sourceTree = "<group>";
+		};
+		392B24AB1AF0E8D900D88A25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				392B24AC1AF0E8D900D88A25 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		392B24B71AF0E94D00D88A25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				392B24B81AF0E94D00D88A25 /* opencv2.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		39AB4EAF1AFB46CE00EECB7F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3907A0A61AFB6FBA00F7425E /* Views */,
+				39AB4EB01AFB46CE00EECB7F /* Utils */,
+				39AB4EB11AFB46CE00EECB7F /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		39AB4EB01AFB46CE00EECB7F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				392B0CD51AFC8807005E3BA5 /* CommonFunction.h */,
+				392B0CD61AFC8807005E3BA5 /* CommonFunction.m */,
+				39AB4EB21AFB46E200EECB7F /* ImageProcessor.h */,
+				39AB4EB31AFB46E200EECB7F /* ImageProcessor.mm */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		39AB4EB11AFB46CE00EECB7F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3907A0BB1AFC574100F7425E /* ViewController.h */,
+				3907A0BC1AFC574100F7425E /* ViewController.mm */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		392B248D1AF0E8D800D88A25 /* MotionDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392B24B11AF0E8D900D88A25 /* Build configuration list for PBXNativeTarget "MotionDetector" */;
+			buildPhases = (
+				392B248A1AF0E8D800D88A25 /* Sources */,
+				392B248B1AF0E8D800D88A25 /* Frameworks */,
+				392B248C1AF0E8D800D88A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionDetector;
+			productName = MotionDetector;
+			productReference = 392B248E1AF0E8D800D88A25 /* MotionDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		392B24A61AF0E8D900D88A25 /* MotionDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392B24B41AF0E8D900D88A25 /* Build configuration list for PBXNativeTarget "MotionDetectorTests" */;
+			buildPhases = (
+				392B24A31AF0E8D900D88A25 /* Sources */,
+				392B24A41AF0E8D900D88A25 /* Frameworks */,
+				392B24A51AF0E8D900D88A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392B24A91AF0E8D900D88A25 /* PBXTargetDependency */,
+			);
+			name = MotionDetectorTests;
+			productName = MotionDetectorTests;
+			productReference = 392B24A71AF0E8D900D88A25 /* MotionDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		392B24861AF0E8D800D88A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Mitsuya.WATANABE;
+				TargetAttributes = {
+					392B248D1AF0E8D800D88A25 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					392B24A61AF0E8D900D88A25 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 392B248D1AF0E8D800D88A25;
+					};
+				};
+			};
+			buildConfigurationList = 392B24891AF0E8D800D88A25 /* Build configuration list for PBXProject "MotionDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 392B24851AF0E8D800D88A25;
+			productRefGroup = 392B248F1AF0E8D800D88A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				392B248D1AF0E8D800D88A25 /* MotionDetector */,
+				392B24A61AF0E8D900D88A25 /* MotionDetectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		392B248C1AF0E8D800D88A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3949D40E1B044B75008AE045 /* SleepView.xib in Resources */,
+				3907A0C11AFC5D6E00F7425E /* Assets in Resources */,
+				392B249D1AF0E8D800D88A25 /* Main.storyboard in Resources */,
+				3907A0C31AFC5EBB00F7425E /* default.mp3 in Resources */,
+				3907A0A81AFB701500F7425E /* PresetView.xib in Resources */,
+				392B24A21AF0E8D800D88A25 /* LaunchScreen.xib in Resources */,
+				392B249F1AF0E8D800D88A25 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392B24A51AF0E8D900D88A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		392B248A1AF0E8D800D88A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3949D4111B044B9A008AE045 /* SleepView.m in Sources */,
+				392B24971AF0E8D800D88A25 /* AppDelegate.m in Sources */,
+				39AB4EB41AFB46E200EECB7F /* ImageProcessor.mm in Sources */,
+				392B0CD71AFC8807005E3BA5 /* CommonFunction.m in Sources */,
+				3907A0BD1AFC574100F7425E /* ViewController.mm in Sources */,
+				3907A0AB1AFB703800F7425E /* PresetView.m in Sources */,
+				392B24941AF0E8D800D88A25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392B24A31AF0E8D900D88A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392B24AE1AF0E8D900D88A25 /* MotionDetectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		392B24A91AF0E8D900D88A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 392B248D1AF0E8D800D88A25 /* MotionDetector */;
+			targetProxy = 392B24A81AF0E8D900D88A25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		392B249B1AF0E8D800D88A25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392B249C1AF0E8D800D88A25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		392B24A01AF0E8D800D88A25 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392B24A11AF0E8D800D88A25 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		392B24AF1AF0E8D900D88A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GOCCO, K.K.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GOCCO, K.K.";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e58da6c9-e4f8-4f5d-a332-13b7071fca83";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		392B24B01AF0E8D900D88A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GOCCO, K.K.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GOCCO, K.K.";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e58da6c9-e4f8-4f5d-a332-13b7071fca83";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		392B24B21AF0E8D900D88A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GOCCO, K.K.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GOCCO, K.K.";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MotionDetector/Frameworks",
+				);
+				INFOPLIST_FILE = MotionDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e58da6c9-e4f8-4f5d-a332-13b7071fca83";
+			};
+			name = Debug;
+		};
+		392B24B31AF0E8D900D88A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GOCCO, K.K.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GOCCO, K.K.";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MotionDetector/Frameworks",
+				);
+				INFOPLIST_FILE = MotionDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e58da6c9-e4f8-4f5d-a332-13b7071fca83";
+			};
+			name = Release;
+		};
+		392B24B51AF0E8D900D88A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MotionDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionDetector.app/MotionDetector";
+			};
+			name = Debug;
+		};
+		392B24B61AF0E8D900D88A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MotionDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotionDetector.app/MotionDetector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		392B24891AF0E8D800D88A25 /* Build configuration list for PBXProject "MotionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392B24AF1AF0E8D900D88A25 /* Debug */,
+				392B24B01AF0E8D900D88A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392B24B11AF0E8D900D88A25 /* Build configuration list for PBXNativeTarget "MotionDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392B24B21AF0E8D900D88A25 /* Debug */,
+				392B24B31AF0E8D900D88A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392B24B41AF0E8D900D88A25 /* Build configuration list for PBXNativeTarget "MotionDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392B24B51AF0E8D900D88A25 /* Debug */,
+				392B24B61AF0E8D900D88A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 392B24861AF0E8D800D88A25 /* Project object */;
+}
